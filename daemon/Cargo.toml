@@ -32,7 +32,7 @@ clap = { version = "4.0.8", features = ["cargo"] }
 
 # Necessary for deserialization of untagged enums in assignments.
 [dependencies.ron]
-git = "https://github.com/MomoLangenstein/ron"
+git = "https://github.com/DanGLES3/ron"
 branch = "253-untagged-enums"
 
 [dependencies.tracing-subscriber]
